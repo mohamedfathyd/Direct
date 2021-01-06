@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginbackground"
+    tools:context=".Activity.OrdersDetails">
+    <androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:local="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        local:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        local:popupTheme="@style/ThemeOverlay.AppCompat.Light" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:text="@string/app_name"
+            android:layout_gravity="center"
+            android:id="@+id/toolbar_title" />
+
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear"
+        android:paddingTop="20dp"
+
+        android:paddingBottom="20dp"
+        android:layout_below="@id/app_bar"
+        android:layoutDirection="rtl"
+
+        android:orientation="horizontal"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_vertical"
+
+            android:layout_margin="10dp"
+            android:id="@+id/image"
+            android:background="@drawable/profile"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:id="@+id/username"
+                android:textStyle="bold"
+                android:text="Mohamed Fathy"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="01060967793"
+                android:layout_marginTop="5dp"
+
+                android:id="@+id/phone"
+                android:textColor="#4a5364"
+
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/linear"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/details"
+            android:text="@string/details"
+            />
+    </LinearLayout>
+</RelativeLayout>

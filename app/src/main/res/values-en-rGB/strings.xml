@@ -1,0 +1,140 @@
+<resources>
+    <string name="app_name" >Direct</string>
+    <string name="hint_name" >name</string>
+    <string name="face">Login With Facebook</string>
+    <string name="Region">Region</string>
+    <string name="more">more</string>
+    <string name="detail">Servcie detail :</string>
+    <string name="LocationFrom"> Location From</string>
+    <string name="LocationTo"> Location To</string>
+    <string name="chat">Chat</string>
+    <string name="moreDetails">More details ....</string>
+    <string name="numberOf"> Number Of pieces :</string>
+    <string name="servcie">Offered service</string>
+    <string name="carNumber">Car number</string>
+    <string name="location">Location</string>
+    <string name="carModel">Car model</string>
+    <string name="locationb">This is the Location</string>
+    <string name="notnow">Not Now</string>
+    <string name="forgetPassword">Forget Password</string>
+    <string name="forgetPasword">if you need help reselting your password. we need to confirm your registiration  by your phone number.</string>
+    <string name="NEwpassword">New Password</string>
+    <string name="RegesterCar">Regester Driver</string>
+    <string name="RegisterServcie">Regisetr As Maintenance technician</string>
+    <string name="carId">Drive ID</string>
+    <string name="personId">Personal ID</string>
+    <string name="numofDays">Number Of Days</string>
+    <string name="notifications">Notifications</string>
+    <string name="guest">Continue As A Guest</string>
+    <string name="Register_Tager">Register As tradesman</string>
+    <string name="profile">My Profile</string>
+    <string name="main">Main Page</string>
+    <string name="Logout">LogOut</string>
+    <string name="fatoura">receipt</string>
+    <string name="receve"> Confirm Reservation</string>
+    <string name="continuee">Continue</string>
+    <string name="staff">Staff</string>
+    <string name="info">Info</string>
+    <string name="servcies">Servcies</string>
+    <string name="Offers">Partners</string>
+    <string name="country">City</string>
+    <string name="Subject">Subject</string>
+    <string name="message">Message</string>
+    <string name="send">Send</string>
+    <string name="men">men</string>
+    <string name="women">women</string>
+    <string name="hint_phone" >mobile</string>
+    <string name="salon">Healthy salons</string>
+    <string name="sport">Sports clubs</string>
+    <string name="wedding">Wedding halls</string>
+    <string name="meeting">Hospitality services</string>
+    <string name="whous" >Who us</string>
+    <string name="callus" >Call us</string>
+    <string name="details">You must transfer the amount to the previous account or pay when you buy. </string>
+    <string name="myorders" >My orders</string>
+    <string name="ask">Are you sure you want to confirm and send this request?</string>
+    <string name="addto">Add To Shopping Car</string>
+    <string name="mobile">... Send a transfer receipt to WhatsApp: 971555733305 to complete your purchase</string>
+    <string name="success">Your application registration has been successfully registered</string>
+    <string name="load">Your request is being registered</string>
+    <string name="lang">English</string>
+    <string name="whoustxt"> It is an application for an e-commerce platform that allows UAE merchants to view and sell products. Our motto is always from home to home. </string>
+
+    <string name="name" >name</string>
+    <string name="address" >Email</string>
+    <string name="phone" >Phone</string>
+    <string name="listorders" >List Of Orders</string>
+    <string name="confirm" >Confirm</string>
+    <string name="deletemontag" >Delete Orders</string>
+    <string name="login" >Login</string>
+    <string name="ignore" >Skip</string>
+    <string name="date" >birth date </string>
+
+    <string name="password" >Password</string>
+    <string name="allmoney" >Cost</string>
+    <string name="hint_address" >Email</string>
+    <string name="hint_password" >Password</string>
+    <string name="hint_confirm_password" >Confirm Password </string>
+    <string name="text_login" >Login</string>
+    <string name="text_register" >Create account</string>
+    <string name="text_not_member" >Registration</string>
+    <string name="search">Search</string>
+    <string name="orderdetail">Order Details</string>
+    <string name="terms">Terms and Conditions</string>
+    <string name="sh">
+        Objective of the application:
+1- Touring in an easy electronic environment that allows productive families and allows businesses to grow and prosper.
+2 - Help as much as possible by maintaining the economic situation of productive families and help them by offering their products to reach the largest number of people.
+3 - contribute to facilitate the sale process for merchants and purchase easily ..
+
+terms of sale :
+1- The contract must include two parties, namely the seller and the buyer.
+2 - It is required that the seller owns the whole thing sold, until it is delivered to the buyer.
+3 - It is required that the thing sold is halal, it is not permissible to trade in nullities.
+4 - The price must be known between the parties, provided that the thing sold free of mortgages ..
+5 - The seller should be very reasonable.
+6. The seller must have a commercial license.
+
+Purchase Terms:
+1- Registration information must be correct and accurate in order to complete the purchase successfully.
+2- Read the description of the product under the picture ..
+3 - Some products do not recover or replace, such as perfumes, care products and open makeup and others ..
+    </string>
+
+    <string name="ss">
+          Objective of the application:
+1- Touring in an easy electronic environment that allows productive families and allows businesses to grow and prosper.
+2 - Help as much as possible by maintaining the economic situation of productive families and help them by offering their products to reach the largest number of people.
+3 - contribute to facilitate the sale process for merchants and purchase easily ..
+
+terms of sale :
+1- The contract must include two parties, namely the seller and the buyer.
+2 - It is required that the seller owns the whole thing sold, until it is delivered to the buyer.
+3 - It is required that the thing sold is halal, it is not permissible to trade in nullities.
+4 - The price must be known between the parties, provided that the thing sold free of mortgages ..
+5 - The seller should be very reasonable.
+6. The seller must have a commercial license.
+
+Purchase Terms:
+1- Registration information must be correct and accurate in order to complete the purchase successfully.
+2- Read the description of the product under the picture ..
+3 - Some products do not recover or replace, such as perfumes, care products and open makeup and others
+    </string>
+    <string-array name="account_num">
+        <item>
+            UAE
+           </item>
+        <!--<item>-->
+        <!--السعودية-->
+        <!--</item>-->
+        <!--<item>-->
+        <!--الكويت-->
+        <!--</item>-->
+        <!--<item>-->
+        <!--عمان-->
+        <!--</item>-->
+
+    </string-array>
+    <string name="facebook_app_id">657496788328201</string> <string name="fb_login_protocol_scheme">fb657496788328201</string>
+
+</resources>

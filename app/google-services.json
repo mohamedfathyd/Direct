@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "658712288753",
+    "firebase_url": "https://direct-59269.firebaseio.com",
+    "project_id": "direct-59269",
+    "storage_bucket": "direct-59269.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:658712288753:android:4b9a4cf093722a2a73f850",
+        "android_client_info": {
+          "package_name": "com.khalej.direct"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "658712288753-h70nbr3kq65cvna689sphnlen4ocsbnt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.khalej.direct",
+            "certificate_hash": "22fd65c93727d47d3cf5938ca60e08c55096fe37"
+          }
+        },
+        {
+          "client_id": "658712288753-5kn9mla0uqnij2um3o7jubb233fqvqle.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTwiFe5bYCc1UFMwIrxM_LKF6AN7lBIBs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "658712288753-5kn9mla0uqnij2um3o7jubb233fqvqle.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

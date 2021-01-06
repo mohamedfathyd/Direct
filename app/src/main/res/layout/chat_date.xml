@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layoutDirection="rtl"
+    android:text="سلام عليكم"
+    android:id="@+id/recive"
+    android:layout_margin="5dp"
+    android:layout_gravity="start"
+    android:textSize="20dp"
+    android:background="@drawable/shapeguest"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layoutDirection="ltr"
+        android:layout_margin="5dp"
+        android:layout_gravity="end"
+        android:text="وعليكم السلام"
+        android:id="@+id/sender"
+        android:textSize="20dp"
+        android:background="@drawable/shapelogin"
+        />
+</LinearLayout>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00000000"
+
+    tools:context=".Activity.Profile_fragment">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layoutDirection="ltr"
+
+        android:layout_height="match_parent"
+        tools:context=".Activity.WhoUs">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/notification"
+            android:layout_gravity="left"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/notification"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linear"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:layout_below="@id/app_bar"
+            android:layoutDirection="rtl"
+
+            android:orientation="horizontal"
+        >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center_vertical"
+
+                android:layout_margin="10dp"
+                android:id="@+id/image"
+                android:background="@drawable/profile"
+                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:id="@+id/username"
+                    android:textStyle="bold"
+                    android:text="Mohamed Fathy"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="M.fathy7793@gamil.com"
+                    android:layout_marginTop="5dp"
+                    android:textSize="15dp"
+                    android:textColor="#4a5364"
+                    android:id="@+id/address"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="01060967793"
+                    android:layout_marginTop="5dp"
+
+                    android:id="@+id/phone"
+                    android:textColor="#4a5364"
+
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/linear"
+            android:id="@+id/linear2"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:layout_marginTop="10dp"
+                android:text="@string/myorders"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="5dp"
+                android:background="#909090" />
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="horizontal"
+                android:id="@+id/recyclerview"
+
+                android:background="@drawable/shapewhite"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:padding="20dp"
+                android:layout_below="@+id/vie"
+                android:layout_marginBottom="2dp"
+                app:reverseLayout="true"
+                >
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+    <ProgressBar
+        android:id="@+id/progressBar_subject"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:indeterminate="false"
+        android:visibility="visible" />
+</FrameLayout>
